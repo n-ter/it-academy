@@ -33,9 +33,23 @@ fib(100, 5);
 
 
 function compareNumbers(num1, num2){
-
+    num1 = Array.from(String(num1))
+    num2 = Array.from(String(num2))
+    let count1 = 0
+    for(let char of num1) {
+        if(num2.includes(char)) {
+            count1++
+        }
+    }
+    let count2 = 0
+    for (let i = 0; i < 4; i++){
+        if (num1[i] === num2[i]){
+            count2++
+        }
+    }
+    console.log(count2,'и',count1)
 };
-compareNumbers(3487, 3794);
+compareNumbers(3487, 3791);
 
 
 
