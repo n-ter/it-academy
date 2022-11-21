@@ -1,0 +1,25 @@
+{
+  "name": "it-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-ter/it-academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-ter/it-academy/issues"
+  },
+  "homepage": "https://github.com/n-ter/it-academy#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14"
+  }
+}
